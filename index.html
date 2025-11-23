@@ -1,0 +1,109 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Concert List</title>
+        <style>
+            body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+            h1 { color: #333; }
+            .metadata { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+            .show { margin-top: 20px; border-left: 3px solid #333; padding-left: 15px; }
+            .bands { font-weight: bold; font-size: 1.2em; margin-bottom: 8px; color: #000; }
+            .band { display: inline; }
+            .band:not(:last-child)::after { content: ", "; }
+            .venue { margin-left: 10px; color: #666; font-size: 0.95em; }
+            .pending-section { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; }
+            .pending-show { margin-top: 15px; border-left: 3px solid #8B0000; padding-left: 15px; }
+            .pending-match { color: #8B0000; font-weight: bold; }
+            .pending-venue { color: #8B0000; margin-top: 5px; margin-left: 10px; }
+        </style>
+    </head>
+    <body>
+        <h1>Upcoming Concerts</h1>
+        <div class="metadata">
+            <p>Last updated: 2025-11-23</p>
+            <p><a href="http://www.foopee.com/punk/the-list/" target="_blank">Source list</a> updated: 11/23/2025</p>
+        </div>
+        <div id="concert-list">
+    <div class="show">
+    <div class="bands"><span class="band">Necrot</span></div>
+    <div class="venue">nov 29 great american music hall, s.f. (now april 3rd)</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Death to All</span><span class="band">Gorguts</span><span class="band">Phobophilic</span></div>
+    <div class="venue">nov 30 regency ballroom, s.f. a/a $54 6pm/7pm # @</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Soothsayer</span></div>
+    <div class="venue">dec 3 bottom of the hill, s.f. 21+ $15 8pm/8:30pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Ne Obliviscaris</span><span class="band">Psycroptic</span><span class="band">Rivers of Nihil</span></div>
+    <div class="venue">dec 6 ritz, san jose a/a $30/$35 6pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Cynic</span></div>
+    <div class="venue">dec 14 regency ballroom, s.f. a/a 7pm/8pm #</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Orgone</span></div>
+    <div class="venue">dec 18 independent, s.f. 21+ $32.47 7:30pm/8pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Death Angel</span></div>
+    <div class="venue">dec 18 fillmore, s.f. a/a $57.24 7pm/8pm #</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Haunt</span></div>
+    <div class="venue">dec 18 cafe du nord, s.f. a/a $27.27 7pm/8pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Death Angel</span></div>
+    <div class="venue">dec 19 fillmore, s.f. a/a $52.50 7pm/8pm #</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Haunt</span></div>
+    <div class="venue">jan 23 ivy room, albany 21+ $12/$15 7pm/8pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Kayo Dot</span></div>
+    <div class="venue">jan 27 bottom of the hill, s.f. 21+ $16/$20 8pm/8:30pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Coroner</span><span class="band">Heathen</span></div>
+    <div class="venue">feb 9 ritz, san jose a/a $30/$35 6:30pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Wheel</span></div>
+    <div class="venue">mar 5 cornerstone, berkeley a/a $29.32 7pm/8pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Fit for an Autopsy</span><span class="band">Lamb of God</span></div>
+    <div class="venue">apr 3 masonic, s.f. a/a 6pm/7pm #</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Forbidden</span></div>
+    <div class="venue">apr 3 great american music hall, s.f. a/a $35/$40 6pm/7pm</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Helloween</span></div>
+    <div class="venue">apr 30 warfield, s.f. a/a 6pm/7:30pm #</div>
+</div>
+<div class="show">
+    <div class="bands"><span class="band">Haunt</span></div>
+    <div class="venue">aug 27 ivy room, albany 21+ $18/$20 7:30pm/8pm</div>
+</div>
+
+        </div>
+        <div class="pending-section">
+            <h2>Possible matches</h2>
+        <div class="pending-show">
+    <div class="pending-venue">jan 10 cornerstone, berkeley a/a 7pm/8pm @</div>
+    <div class="pending-match">Vestige (matched to Vestiges)</div>
+</div>
+</div>
+    </body>
+    </html>
+    
